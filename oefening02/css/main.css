@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serifs;
+    font-size: medium;
+    background-color: olive;
+}
+h1{
+    color:green;
+}
+
+
+img
+{
+    background-color: #fff;
+    max-width: 40%;
+    
+}
+
+.text {
+    max-width: 30%;
+    margin-top: -10px;   
+}
+
+
+.imgtext {
+    max-width: 30%;
+    margin-left: 130px;
+    padding-top: -150px;
+
+}
+
+.step
+{
+    background-color: olive;
+    color: #fff;
+    margin-left: 600px;
+    margin-top: -300px;
+    
+
+}
+
+.imgewedu
+{
+    background-color :darkgreen;
+    max-width: 50%;
+ 
+}
+
+.imgedewutext {
+    max-width: 30%;
+    
+    
+}
+
+.imgscent
+{
+    background-color :darkgreen;
+    max-width: 50%;
+    margin-left: 300px;
+
+}
+
+.imgscenttext {
+    max-width: 30%;
+    margin-left: 1200px;
+    margin-top: -500px;
+}
