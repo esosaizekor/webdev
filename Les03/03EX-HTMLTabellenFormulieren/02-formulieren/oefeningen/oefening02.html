@@ -9,7 +9,36 @@
 
 <body>
     <h1>Maak de juiste keuze.</h1>
-    
+    <form action="mailto:esosa.izekor@student.hogent.be?subject=keuzelijst" method="post" enctype="text/plain">
+    <div>
+        <label for="serie">Kies je favourite serie</label>
+        <select name="serie" id="serie">
+            <option value="gt">Game of Thrones</option>
+            <option value="pb">Peaky Blinders</option>            
+            <option value="lcdp">La casa de Papei</option>                        
+        </select>
+          
+    </div>
+    <div>
+        <label for="lec">Kies je favourite lector</label> 
+        
+        <input list="lectorenlijst" name="lector" id="lec">
+        
+        <datalist id="lectorenlijst">
+            <option value="Karin Samyn"></option>
+            <option value="Stefaan samyn"></option>
+            <option value="Patrick Lauwearts"></option>                        
+        </datalist>
+
+        
+    </div>
+    <div>
+        <button>Maak je keuze</button>
+    </div>
+
+    </form>
+
+
 </body>
 
 </html>
