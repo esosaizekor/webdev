@@ -1,0 +1,12 @@
+li:first-of-type{
+    font-weight: bold;
+}
+
+li li {
+    font-weight: normal;
+}
+
+li li:first-of-type
+{
+    font-weight: normal;
+}
