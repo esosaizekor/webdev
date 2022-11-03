@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <title>Boxmodel</title>
      <style>
-        div {
+        
+        .container div {
             background-color: lightgray;
-            
+            border: 6px solid green;
+            height: 100px;
+            margin : 20px;
+            padding : 20px;
+            width : 400px;
+        }
+
+        .container {
+            border: 6px solid black;
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
 <body>
-    <h2>Demonstrating the Box Model</h2>
-    <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
-    <div>This text is the actual content of the box. We have added a 20px padding, 20px margin and a 6px green border. Also the width and height has been defined.</div>
+    <div class="container">
+        <h2>Demonstrating the Box Model</h2>
+        <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+        <div>This text is the actual content of the box. We have added a 20px padding, 20px margin and a 6px green border. Also the width and height has been defined.</div>
+    
+    </div>
+
 </body>
 </html>

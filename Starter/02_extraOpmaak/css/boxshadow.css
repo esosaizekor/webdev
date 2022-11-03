@@ -6,3 +6,7 @@ p {
     display: inline-block;
 }
 
+.one {
+    box-shadow: -5px -5px 5px 25px red;
+    cursor: pointer;
+}
